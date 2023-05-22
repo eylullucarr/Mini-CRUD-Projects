@@ -57,10 +57,10 @@ export class UsersAddEditComponent implements OnInit, OnChanges {
       this.modalType = 'Edit';
       //edit modalini açar
       this.userForm.patchValue(this.selectedUser);
-      //productforma kendi verisini yerleştirmek için patchValue() kullanılır
+      //userforma kendi verisini yerleştirmek için patchValue() kullanılır
     } else {
       this.userForm.reset();
-      //productforma reset atar, yani kutucuklar boş gelir.
+      //userforma reset atar, yani kutucuklar boş gelir.
       this.modalType = 'Add';
       //add modalini açtırır
     }

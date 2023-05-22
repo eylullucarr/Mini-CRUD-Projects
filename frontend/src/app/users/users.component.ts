@@ -90,7 +90,7 @@ export class UsersComponent {
   showEditModal(users: Users) {
     this.displayAddEditModal = true;
     this.selectedUser = users;
-    //tıklanan mevcut producti gösterir.
+    //tıklanan mevcut userı gösterir.
   }
 
   deleteUser(users: Users) {
